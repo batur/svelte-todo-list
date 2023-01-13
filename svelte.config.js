@@ -14,7 +14,14 @@ const config = {
 			$constants: './src/constants',
 			$styles: './src/styles/*',
 			$hooks: './src/hooks',
-			$lib: './src/lib'
+			$lib: './src/lib',
+			$assets: './src/assets'
+		},
+		files: {
+			hooks: {
+				client: './src/hooks',
+				server: './src/hooks'
+			}
 		}
 	}
 };

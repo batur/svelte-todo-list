@@ -5,6 +5,7 @@
 	import { browser } from '$app/environment';
 	import { QueryClientProvider, QueryClient } from '@tanstack/svelte-query';
 
+	import { useLocale } from '$hooks';
 	const queryClient = new QueryClient({
 		defaultOptions: {
 			queries: {
