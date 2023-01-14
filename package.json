@@ -33,7 +33,6 @@
 	"dependencies": {
 		"@picocss/pico": "^1.5.6",
 		"@tanstack/svelte-query": "^4.22.2",
-		"axios": "^1.2.2",
-		"sveltekit-i18n": "^2.2.2"
+		"axios": "^1.2.2"
 	}
 }
