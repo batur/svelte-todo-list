@@ -4,7 +4,7 @@
 
 	import { browser } from '$app/environment';
 	import { QueryClientProvider, QueryClient } from '@tanstack/svelte-query';
-	import { Header } from '$components';
+	import { Footer, Header } from '$components';
 
 	const queryClient = new QueryClient({
 		defaultOptions: {
@@ -18,4 +18,5 @@
 <QueryClientProvider client={queryClient}>
 	<Header />
 	<slot />
+	<Footer />
 </QueryClientProvider>
